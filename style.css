@@ -20,6 +20,7 @@ ol {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:hover {
@@ -36,7 +37,13 @@ img {
 
 .header {
   display: flex;
-  padding: 35px 16px 100px 45px;
+  padding: 35px 16px;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .list {
@@ -46,4 +53,12 @@ img {
 .contacts-buttons {
   display: flex;
   align-items: center;
+}
+
+.list--item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.contacts-item:not(:last-child) {
+  margin-right: 10px;
 }
