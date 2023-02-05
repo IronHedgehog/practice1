@@ -62,3 +62,13 @@ img {
 .contacts-item:not(:last-child) {
   margin-right: 10px;
 }
+
+.active {
+  display: block;
+
+  padding: 10px 15px;
+
+  border-radius: 12px;
+
+  background-color: orange;
+}
