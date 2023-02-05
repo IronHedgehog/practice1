@@ -72,3 +72,13 @@ img {
 
   background-color: orange;
 }
+
+.box {
+  margin: 0px 147px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  width: 420px;
+}
